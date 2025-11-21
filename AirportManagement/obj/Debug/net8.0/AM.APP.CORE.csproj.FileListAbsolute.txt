@@ -12,3 +12,4 @@ D:\Visual Studio\AirportManagement\AirportManagement\obj\Debug\net8.0\refint\AM.
 D:\Visual Studio\AirportManagement\AirportManagement\obj\Debug\net8.0\AM.APP.CORE.pdb
 D:\Visual Studio\AirportManagement\AirportManagement\obj\Debug\net8.0\AM.APP.CORE.genruntimeconfig.cache
 D:\Visual Studio\AirportManagement\AirportManagement\obj\Debug\net8.0\ref\AM.APP.CORE.dll
+D:\Visual Studio\AirportManagement\AirportManagement\obj\Debug\net8.0\AM.APP.CORE.sourcelink.json

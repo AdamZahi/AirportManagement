@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AM.APP.CORE.domain
 {
-    public class Staff:Passanger
+    public class Staff:Passenger
     {
         public DateTime employmentDate { get; set; }
         public string function { get; set; }

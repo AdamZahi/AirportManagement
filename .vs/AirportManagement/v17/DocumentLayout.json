@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\Visual Studio\\AirportManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AirportManagement.csproj|d:\\visual studio\\airportmanagement\\airportmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AirportManagement.csproj|solutionrelative:airportmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|d:\\visual studio\\airportmanagement\\airportmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|solutionrelative:airportmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|d:\\visual studio\\airportmanagement\\airportmanagement\\domain\\passanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|solutionrelative:airportmanagement\\domain\\passanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|d:\\visual studio\\airportmanagement\\airportmanagement\\domain\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|solutionrelative:airportmanagement\\domain\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|d:\\visual studio\\airportmanagement\\airportmanagement\\domain\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|solutionrelative:airportmanagement\\domain\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|d:\\visual studio\\airportmanagement\\airportmanagement\\service\\flightmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|solutionrelative:airportmanagement\\service\\flightmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|d:\\visual studio\\airportmanagement\\airportmanagement\\domain\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|solutionrelative:airportmanagement\\domain\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|d:\\visual studio\\airportmanagement\\airportmanagement\\domain\\traveller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|solutionrelative:airportmanagement\\domain\\traveller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|d:\\visual studio\\airportmanagement\\airportmanagement\\interface\\iflightmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{688AC106-5526-4465-8C2A-8D47452F1094}|AirportManagement\\AM.APP.CORE.csproj|solutionrelative:airportmanagement\\interface\\iflightmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,60 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Plane.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\domain\\Plane.cs",
-              "RelativeDocumentMoniker": "AirportManagement\\domain\\Plane.cs",
-              "ToolTip": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\domain\\Plane.cs",
-              "RelativeToolTip": "AirportManagement\\domain\\Plane.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T13:53:36.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Traveller.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\domain\\Traveller.cs",
-              "RelativeDocumentMoniker": "AirportManagement\\domain\\Traveller.cs",
-              "ToolTip": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\domain\\Traveller.cs",
-              "RelativeToolTip": "AirportManagement\\domain\\Traveller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T14:47:21.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Staff.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\domain\\Staff.cs",
-              "RelativeDocumentMoniker": "AirportManagement\\domain\\Staff.cs",
-              "ToolTip": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\domain\\Staff.cs",
-              "RelativeToolTip": "AirportManagement\\domain\\Staff.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T14:44:35.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Passanger.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\domain\\Passanger.cs",
-              "RelativeDocumentMoniker": "AirportManagement\\domain\\Passanger.cs",
-              "ToolTip": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\domain\\Passanger.cs",
-              "RelativeToolTip": "AirportManagement\\domain\\Passanger.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAmwCEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T14:18:31.099Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -92,9 +36,48 @@
               "RelativeDocumentMoniker": "AirportManagement\\Program.cs",
               "ToolTip": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\Program.cs",
               "RelativeToolTip": "AirportManagement\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T13:01:01.128Z",
+              "WhenOpened": "2025-11-18T13:30:18.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestData.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\domain\\TestData.cs",
+              "RelativeDocumentMoniker": "AirportManagement\\domain\\TestData.cs",
+              "ToolTip": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\domain\\TestData.cs",
+              "RelativeToolTip": "AirportManagement\\domain\\TestData.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T13:23:09.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FlightMethod.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\Service\\FlightMethod.cs",
+              "RelativeDocumentMoniker": "AirportManagement\\Service\\FlightMethod.cs",
+              "ToolTip": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\Service\\FlightMethod.cs",
+              "RelativeToolTip": "AirportManagement\\Service\\FlightMethod.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA0wGEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T13:04:53.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFlightMethod.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\Interface\\IFlightMethod.cs",
+              "RelativeDocumentMoniker": "AirportManagement\\Interface\\IFlightMethod.cs",
+              "ToolTip": "D:\\Visual Studio\\AirportManagement\\AirportManagement\\Interface\\IFlightMethod.cs",
+              "RelativeToolTip": "AirportManagement\\Interface\\IFlightMethod.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T13:03:25.351Z",
               "EditorCaption": ""
             }
           ]

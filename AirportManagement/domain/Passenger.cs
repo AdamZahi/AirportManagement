@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AM.APP.CORE.domain
 {
-    public class Passanger
+    public class Passenger
     {
         public DateTime BirthDate { get; set; }
         public string PassportNumber { get; set; }
