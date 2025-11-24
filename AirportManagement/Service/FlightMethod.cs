@@ -101,5 +101,57 @@ namespace AM.APP.CORE.Service
                 Console.WriteLine($"Flight to {item.Destination} on {item.FlightDate}");
             }
         }
+
+        public int ProgrammedFlightNumber(DateTime startDate)
+        {
+            var query = from f in Flights
+                        where f.FlightDate >= startDate && f.FlightDate <= startDate.AddDays(7)
+                        select f;
+            return query.Count();
+        }
+
+        public double DurationAverage(string destination)
+        {
+            var query = from f in Flights
+                        where f.Destination == destination
+                        select f.EstamateDuration;
+            return query.Average();
+        }
+
+        public IList<Flight> OrderedDurationFlights()
+        {
+            var query = from f in Flights
+                        orderby f.EstamateDuration descending
+                        select f;
+            return query.ToList();
+        }
+
+        public IList<Traveller> SeniorTravellers(Flight flight)
+        {
+            var query = from p in flight.Passengers.OfType<Traveller>()
+                        orderby p.BirthDate
+                        select p;
+
+            return query.Take(3).ToList();
+        }
+
+
+        public IList<Flight> DestinationGroupedFlights()
+        {
+            var query = from f in Flights
+                        orderby f.Destination
+                        group f by f.Destination;
+            List<Flight> groupedFlights = new List<Flight>();
+            foreach (var group in query)
+            {
+                Console.WriteLine($"Destination: {group.Key}");
+                foreach (var flight in group)
+                {
+                    groupedFlights.Add(flight);
+                    Console.WriteLine($"\tFlight Date: {flight.FlightDate}");
+                }
+            }
+            return groupedFlights;
+        }
     }
 }
