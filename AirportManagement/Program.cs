@@ -14,4 +14,5 @@ fm.Flights = TestData.listFlights;
 //Console.WriteLine("----- Flights from Tunis -----");
 //fm.GetFlights("Departure", "Tunis");
 
-fm.ShowFlightDetails(TestData.BoingPlane);
+//fm.ShowFlightDetails(TestData.BoingPlane);
+fm.DestinationGroupedFlights();

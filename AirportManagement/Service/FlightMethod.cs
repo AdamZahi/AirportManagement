@@ -135,23 +135,20 @@ namespace AM.APP.CORE.Service
             return query.Take(3).ToList();
         }
 
-
-        public IList<Flight> DestinationGroupedFlights()
+        public void DestinationGroupedFlights()
         {
             var query = from f in Flights
-                        orderby f.Destination
-                        group f by f.Destination;
-            List<Flight> groupedFlights = new List<Flight>();
+                        group f by f.Destination into g
+                        select new { Destination = g.Key, Flights = g };
+
             foreach (var group in query)
             {
-                Console.WriteLine($"Destination: {group.Key}");
-                foreach (var flight in group)
+                Console.WriteLine($"Destination {group.Destination}");
+                foreach (var flight in group.Flights)
                 {
-                    groupedFlights.Add(flight);
-                    Console.WriteLine($"\tFlight Date: {flight.FlightDate}");
+                    Console.WriteLine($"Décollage : {flight.FlightDate:dd/MM/yyyy HH:mm:ss}");
                 }
             }
-            return groupedFlights;
         }
     }
 }
